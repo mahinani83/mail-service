@@ -5,7 +5,7 @@ dotenv.config();
 const PORT = process.env.PORT || 8800;
 import { emailConsumer } from "./consumer";
 
-emailConsumer();
+emailConsumer(); 
 
 
 app.listen(PORT,()=>{

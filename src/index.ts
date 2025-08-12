@@ -10,4 +10,4 @@ emailConsumer();
 
 app.listen(PORT,()=>{
     console.log("mail service is running at port 8800")
-})  
+})   
